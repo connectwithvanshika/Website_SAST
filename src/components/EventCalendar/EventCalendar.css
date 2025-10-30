@@ -1,5 +1,4 @@
 /* Event Calendar Custom Styles - Complete Responsive Version */
-
 /* Main container */
 .event-calendar-page {
   min-height: 100vh;
@@ -303,8 +302,11 @@
   }
 }
 
-.event-card:hover {
-  background: rgba(255, 255, 255, 0.1);
+.event-card:hover, 
+.list-event-card:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
 .event-card-header {
